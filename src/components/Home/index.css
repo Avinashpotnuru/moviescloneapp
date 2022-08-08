@@ -1,0 +1,238 @@
+.home-container {
+  background-color: #000000;
+
+  min-height: 100vh;
+}
+.success-container {
+  width: 100%;
+  min-height: 50vh;
+}
+.header-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+}
+.title {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 62px;
+  /* identical to box height, or 97% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.overview {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 0px;
+  color: #ffffff;
+  width: 500px;
+}
+.play-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  color: #171f46;
+  outline: none;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.bottom-container {
+  background-color: #000000;
+  padding: 20px;
+  min-width: 80%;
+}
+.head {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 466px;
+  width: 1109px;
+}
+.home-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 466px;
+  width: 1109px;
+}
+.warning-icon {
+  color: red;
+  height: 25px;
+  width: 25px;
+}
+.fail-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.home-fail-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* General/Dark blue */
+  border: none;
+  outline: none;
+
+  color: #171f46;
+  border: none;
+  outline: none;
+}
+@media screen and (max-width: 767px) {
+  .success-container {
+    width: 100%;
+    min-height: 50vh;
+  }
+  .title {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+
+    /* General/White */
+
+    color: #ffffff;
+  }
+  .overview {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    width: 90%;
+    color: #ffffff;
+  }
+  .play-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+
+    width: 76px;
+    height: 32px;
+
+    background: #ffffff;
+    border-radius: 4px;
+  }
+  .head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* General/White */
+
+    color: #ffffff;
+  }
+  .failure-img {
+    width: 150px;
+    height: 100px;
+  }
+  .failure-para {
+    left: 20.28%;
+    right: 20%;
+    top: 24.65%;
+    bottom: 73.13%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .home-fail-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 12px;
+    gap: 8px;
+
+    width: 77px;
+    height: 28px;
+
+    background: #ffffff;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    /* General/Dark blue */
+
+    color: #171f46;
+  }
+  .home-failure-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+  }
+}

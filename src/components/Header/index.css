@@ -1,0 +1,134 @@
+.categories-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+.link-element {
+  text-decoration: none;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  margin-right: 10px;
+
+  color: #ffffff;
+}
+.play-icon-container {
+  display: none;
+}
+.header-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 10vh;
+  padding: 40px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.movies {
+  height: 35px;
+  width: 140px;
+  background-color: transparent;
+}
+.header-bottom-container {
+  display: none;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+.search-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.route-element {
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  .movies {
+    height: 27px;
+    width: 100px;
+  }
+  .categories-list {
+    display: none;
+  }
+  .search-button {
+    display: none;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .person {
+    display: none;
+  }
+  .play-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .hi-search {
+    color: #ffffff;
+    height: 20px;
+  }
+  .cg-play-icon {
+    color: #ffffff;
+    height: 40px;
+    width: 20px;
+  }
+  .routing-container {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cg-close-icon {
+    background-color: #ffffff;
+    border-radius: 40px;
+  }
+  .header-bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 45px;
+  }
+  .play {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .close-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 40px;
+  }
+}

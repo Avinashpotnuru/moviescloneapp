@@ -1,0 +1,282 @@
+.header-container {
+  background-color: #131313;
+}
+.account-container {
+  display: flex;
+  flex-direction: column;
+}
+.account-details-container {
+  padding: 40px;
+  width: 90%;
+  min-height: 70vh;
+}
+.hr-element {
+  /* Light / blue-gray / 300 */
+
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+.account-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  /* identical to box height */
+
+  color: #131313;
+}
+.membership-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.membership {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  margin-right: 20px;
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.email {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+.plan-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.details {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+  margin-right: 20px;
+}
+.premium-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.premium {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+  margin-right: 10px;
+}
+.quality {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid #1e293b;
+  padding: 5px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logout-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 10px;
+
+  background: #e50914;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.account-footer {
+  background-color: #000000;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .account-heading {
+    left: 8.89%;
+    right: 66.11%;
+    top: 16.72%;
+    bottom: 78.91%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #131313;
+  }
+  .membership {
+    left: 8.89%;
+    right: 61.67%;
+    top: 26.41%;
+    bottom: 70%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    /* Light / blue-gray / 400 */
+
+    color: #94a3b8;
+  }
+  .membership-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .email {
+    left: 41.39%;
+    right: 22.78%;
+    top: 26.41%;
+    bottom: 70.31%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+  }
+  .password {
+    left: 41.39%;
+    right: 11.94%;
+    top: 30.62%;
+    bottom: 66.09%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* Light / blue-gray / 500 */
+
+    color: #64748b;
+  }
+  .details {
+    left: 8.89%;
+    right: 65%;
+    top: 41.41%;
+    bottom: 55%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    /* Light / blue-gray / 400 */
+
+    color: #94a3b8;
+  }
+  .premium {
+    left: 41.39%;
+    right: 40.83%;
+    top: 41.41%;
+    bottom: 55.31%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+  }
+  .quality {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 18px;
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+  }
+}

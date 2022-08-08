@@ -1,0 +1,27 @@
+.footer-icon {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-right: 15px;
+}
+.footer-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+  margin-left: 20px;
+}
+.footer-container {
+  margin-top: 30px;
+}

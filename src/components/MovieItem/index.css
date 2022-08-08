@@ -1,0 +1,448 @@
+.movie-item-container {
+  width: 100%;
+  min-height: 30vh;
+  background-size: cover;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+.movie-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.run-time {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 15px;
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.censor {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* General/White */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 12px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  margin-right: 10px;
+
+  color: #ffffff;
+}
+.release-date {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.genre-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  left: 11.46%;
+  right: 83.12%;
+  top: 41.38%;
+  bottom: 51.52%;
+}
+.genre {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.genre-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.audio-header {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.movie-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  width: 90%;
+}
+.audios-available-container {
+  padding-left: 0px;
+  list-style-type: none;
+  left: 31.25%;
+  right: 64.79%;
+  top: 41.38%;
+  bottom: 53.29%;
+}
+.language {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.rating-header {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* identical to box height, or 144% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.vote {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* or 150% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.average-rating {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* identical to box height, or 144% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.average {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* or 150% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.budget-header {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* identical to box height, or 144% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+.total-budget {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* or 150% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.release-header {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  /* identical to box height, or 144% */
+
+  /* Light / blue-gray / 400 */
+
+  color: #94a3b8;
+}
+
+.date {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  /* or 150% */
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.rating-container {
+  padding: 0px;
+  left: 51.04%;
+  right: 45.42%;
+  top: 41.38%;
+  bottom: 56.85%;
+}
+.movie-item-container {
+  background-color: #000000;
+  padding: 0px;
+  min-height: 60vh;
+}
+.similar-movie-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  left: 11.46%;
+  right: 78.4%;
+  top: 52.04%;
+  bottom: 45.67%;
+  margin-left: 40px;
+
+  /* General/White */
+
+  color: #ffffff;
+}
+.similar-movie-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.similar-movie-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.movie-list-item {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.similar-movie-img {
+  height: 170px;
+  width: 265px;
+  border-radius: 8px;
+}
+.genre-and-languages-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  left: 11.46%;
+  right: 84.51%;
+  top: 38.86%;
+  bottom: 59.22%;
+  min-width: 35vw;
+}
+.rating-and-budget-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 35vw;
+  margin-top: 20px;
+  left: 71.18%;
+  right: 22.01%;
+  top: 41.38%;
+  bottom: 56.85%;
+}
+@media screen and (max-width: 766px) {
+  .similar-movie-img {
+    width: 90px;
+    height: 64px;
+    border-radius: 4px;
+    left: 8.89%;
+    right: 66.11%;
+    top: 69.9%;
+    bottom: 23.64%;
+  }
+  .similar-movie-heading {
+    margin: 0px;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    /* General/White */
+
+    color: #ffffff;
+  }
+  .movie-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    flex-wrap: wrap;
+    max-width: 75%;
+  }
+
+  .audios-available-container {
+    left: 32.5%;
+    right: 40.56%;
+    top: 41.82%;
+    bottom: 56.36%;
+    margin-right: 20px;
+  }
+  .rating-container {
+    left: 68.33%;
+    right: 20.83%;
+    top: 44.34%;
+    bottom: 53.64%;
+  }
+  .movie-list-item {
+    width: 24%;
+  }
+  .similar-movie-heading {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .movie-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 90%;
+  }
+  .genre-and-languages-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .genre-list-container {
+    width: 40%;
+  }
+  .audios-available-container {
+    width: 40%;
+  }
+  .rating-container {
+    width: 40%;
+  }
+  .rating-and-budget-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .fail-img {
+    left: 17.78%;
+    right: 17.5%;
+    top: 27.81%;
+    bottom: 45.31%;
+    width: 233px;
+    height: 172px;
+  }
+  .failure-para {
+    left: 8.89%;
+    right: 8.89%;
+    top: 58.44%;
+    bottom: 37.81%;
+
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .fail-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 8px;
+
+    width: 107px;
+    height: 40px;
+
+    background: #ffffff;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* General/Dark blue */
+
+    color: #171f46;
+  }
+}
